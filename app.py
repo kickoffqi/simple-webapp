@@ -1,4 +1,3 @@
-import os
 from flask import Flask
 
 app = Flask(__name__)
@@ -6,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome!"
+    return "Welcome! Hello, World!"
 
 @app.route('/how are you')
 def hello():
