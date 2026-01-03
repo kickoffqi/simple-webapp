@@ -9,7 +9,7 @@ def main():
 
 @app.route('/2026')
 def hello():
-    return 'Let's change yourself in 2026!'
+    return 'Let's change yourself in 2026!!'
 
 if __name__ == "__main__":
     app.run()
